@@ -1,0 +1,22 @@
+.detailbox {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.historybox {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.inpt_cari {
+    border-bottom: 2px solid rgb(192, 191, 191);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.btn-dtlstorage {
+    /* float: right;
+    margin-right: 3%; */
+
+}

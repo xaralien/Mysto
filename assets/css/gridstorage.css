@@ -1,0 +1,93 @@
+.outer-grid {
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    float: left;
+    height: 20%;
+    width: 33.3%;
+    padding-bottom: 33.3%;
+}
+
+.outer-square {
+    position: absolute;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    background-color: #D9D9D9;
+    margin: 5%;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner-grid {
+
+    width: 33.3%;
+    height: 33.3%;
+    border: 5px solid #fff;
+    display: table;
+}
+
+.inner-square {
+    color: #000;
+    line-height: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    transition: 0.3s;
+}
+
+.inner-square:hover {
+    background-color: #8AAAE5;
+    color: white;
+}
+
+.blocktext {
+    color: #000;
+    line-height: 100%;
+    font-weight: bold;
+    margin-left: 6%;
+    font-size: 25px;
+}
+
+.box-explenation {
+    margin-left: 2%;
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+}
+
+.smallbox {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.explanation-smallbox {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+#Penuh {
+    background-color: red;
+}
+
+#SepaKosong {
+    background-color: orange;
+}
+
+#Setengah {
+    background-color: yellow;
+}
+
+#Separuh {
+    background-color: green;
+}
+
+#Kosong {
+    background-color: #D9D9D9;
+}
